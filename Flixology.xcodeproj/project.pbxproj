@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502952A08375E32AD2EF283D /* Pods_Flixology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628B6605FBB105AEBA92E757 /* Pods_Flixology.framework */; };
 		DD6241A92519C56600AFB52D /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6241A82519C56600AFB52D /* MoviesViewController.swift */; };
+		DD7ABBD9251EEA74005E83B4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7ABBD8251EEA74005E83B4 /* MovieCell.swift */; };
 		DDA2870A2517349A0096D003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA287092517349A0096D003 /* AppDelegate.swift */; };
 		DDA2870C2517349A0096D003 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2870B2517349A0096D003 /* SceneDelegate.swift */; };
 		DDA287112517349A0096D003 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDA2870F2517349A0096D003 /* Main.storyboard */; };
@@ -16,7 +18,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		628B6605FBB105AEBA92E757 /* Pods_Flixology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flixology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCA3FE0F83DE9CBC5D1B4E9 /* Pods-Flixology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixology.release.xcconfig"; path = "Target Support Files/Pods-Flixology/Pods-Flixology.release.xcconfig"; sourceTree = "<group>"; };
+		B8830D756CD40228C32F2E1D /* Pods-Flixology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixology.debug.xcconfig"; path = "Target Support Files/Pods-Flixology/Pods-Flixology.debug.xcconfig"; sourceTree = "<group>"; };
 		DD6241A82519C56600AFB52D /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		DD7ABBD8251EEA74005E83B4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		DDA287062517349A0096D003 /* Flixology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixology.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDA287092517349A0096D003 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDA2870B2517349A0096D003 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502952A08375E32AD2EF283D /* Pods_Flixology.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37DDA3F168FC95F969BE5FCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				628B6605FBB105AEBA92E757 /* Pods_Flixology.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE3942B8CCD9928DB7B65771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8830D756CD40228C32F2E1D /* Pods-Flixology.debug.xcconfig */,
+				ADCA3FE0F83DE9CBC5D1B4E9 /* Pods-Flixology.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DDA286FD2517349A0096D003 = {
 			isa = PBXGroup;
 			children = (
 				DDA287082517349A0096D003 /* Flixology */,
 				DDA287072517349A0096D003 /* Products */,
+				BE3942B8CCD9928DB7B65771 /* Pods */,
+				37DDA3F168FC95F969BE5FCC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +87,7 @@
 				DDA2870B2517349A0096D003 /* SceneDelegate.swift */,
 				DD6241A82519C56600AFB52D /* MoviesViewController.swift */,
 				DDA2870F2517349A0096D003 /* Main.storyboard */,
+				DD7ABBD8251EEA74005E83B4 /* MovieCell.swift */,
 				DDA287122517349C0096D003 /* Assets.xcassets */,
 				DDA287142517349C0096D003 /* LaunchScreen.storyboard */,
 				DDA287172517349C0096D003 /* Info.plist */,
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDA2871A2517349C0096D003 /* Build configuration list for PBXNativeTarget "Flixology" */;
 			buildPhases = (
+				B7B7B59FF35B3DDF35536BAE /* [CP] Check Pods Manifest.lock */,
 				DDA287022517349A0096D003 /* Sources */,
 				DDA287032517349A0096D003 /* Frameworks */,
 				DDA287042517349A0096D003 /* Resources */,
+				CCA5816D552646E34626ACF3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +163,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B7B7B59FF35B3DDF35536BAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Flixology-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA5816D552646E34626ACF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flixology/Pods-Flixology-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Flixology/Pods-Flixology-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Flixology/Pods-Flixology-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDA287022517349A0096D003 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +212,7 @@
 			files = (
 				DDA2870A2517349A0096D003 /* AppDelegate.swift in Sources */,
 				DDA2870C2517349A0096D003 /* SceneDelegate.swift in Sources */,
+				DD7ABBD9251EEA74005E83B4 /* MovieCell.swift in Sources */,
 				DD6241A92519C56600AFB52D /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +355,7 @@
 		};
 		DDA2871B2517349C0096D003 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8830D756CD40228C32F2E1D /* Pods-Flixology.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +373,7 @@
 		};
 		DDA2871C2517349C0096D003 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADCA3FE0F83DE9CBC5D1B4E9 /* Pods-Flixology.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
