@@ -23,7 +23,7 @@ Flixology is an app that allows users to browse movies from the [The Movie Datab
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/45TTMSgoqk.gif" width=250>
+<img src="http://g.recordit.co/BoYaeJ5boa.gif" width=250>
 
 ### Notes
 
