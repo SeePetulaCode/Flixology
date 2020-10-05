@@ -15,7 +15,7 @@ Flixology is an app that allows users to browse movies from the [The Movie Datab
 - [] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthrough GIF
-<img src="http://g.recordit.co/4DQG9hyxz1.gif" width=250><br>
+<img src="https://res.cloudinary.com/b1917/image/upload/v1601882948/test_mobileC_jfj90i.gif" width=250><br>
 
 ### Notes
 During Collection section. I had an error where the launch screen held at the launch screen.
@@ -37,7 +37,7 @@ During Collection section. I had an error where the launch screen held at the la
 
 ### App Walkthrough GIF
 
-<img src="https://res.cloudinary.com/b1917/image/upload/v1601882948/test_mobileC_jfj90i.gif" width=250>
+<img src="http://g.recordit.co/BoYaeJ5boa.gif" width=250>
 
 ### Notes
 
