@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		502952A08375E32AD2EF283D /* Pods_Flixology.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628B6605FBB105AEBA92E757 /* Pods_Flixology.framework */; };
+		DD56D126252AC63900408CB5 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD56D125252AC63900408CB5 /* MovieDetailsViewController.swift */; };
+		DD56D12D252AE3A700408CB5 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD56D12C252AE3A700408CB5 /* MovieGridViewController.swift */; };
+		DD56D134252AF3B300408CB5 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD56D133252AF3B300408CB5 /* MovieGridCell.swift */; };
 		DD6241A92519C56600AFB52D /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD6241A82519C56600AFB52D /* MoviesViewController.swift */; };
 		DD7ABBD9251EEA74005E83B4 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7ABBD8251EEA74005E83B4 /* MovieCell.swift */; };
 		DDA2870A2517349A0096D003 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA287092517349A0096D003 /* AppDelegate.swift */; };
@@ -21,6 +24,9 @@
 		628B6605FBB105AEBA92E757 /* Pods_Flixology.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flixology.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADCA3FE0F83DE9CBC5D1B4E9 /* Pods-Flixology.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixology.release.xcconfig"; path = "Target Support Files/Pods-Flixology/Pods-Flixology.release.xcconfig"; sourceTree = "<group>"; };
 		B8830D756CD40228C32F2E1D /* Pods-Flixology.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flixology.debug.xcconfig"; path = "Target Support Files/Pods-Flixology/Pods-Flixology.debug.xcconfig"; sourceTree = "<group>"; };
+		DD56D125252AC63900408CB5 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
+		DD56D12C252AE3A700408CB5 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MovieGridViewController.swift; path = "/Users/petulapascall/Desktop/Fall 2020/CodePath/Week 2/Flixology/Flixology/MovieGridViewController.swift"; sourceTree = "<absolute>"; };
+		DD56D133252AF3B300408CB5 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		DD6241A82519C56600AFB52D /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		DD7ABBD8251EEA74005E83B4 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		DDA287062517349A0096D003 /* Flixology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixology.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,7 +64,6 @@
 				B8830D756CD40228C32F2E1D /* Pods-Flixology.debug.xcconfig */,
 				ADCA3FE0F83DE9CBC5D1B4E9 /* Pods-Flixology.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -87,10 +92,13 @@
 				DDA2870B2517349A0096D003 /* SceneDelegate.swift */,
 				DD6241A82519C56600AFB52D /* MoviesViewController.swift */,
 				DDA2870F2517349A0096D003 /* Main.storyboard */,
+				DD56D125252AC63900408CB5 /* MovieDetailsViewController.swift */,
 				DD7ABBD8251EEA74005E83B4 /* MovieCell.swift */,
+				DD56D12C252AE3A700408CB5 /* MovieGridViewController.swift */,
 				DDA287122517349C0096D003 /* Assets.xcassets */,
 				DDA287142517349C0096D003 /* LaunchScreen.storyboard */,
 				DDA287172517349C0096D003 /* Info.plist */,
+				DD56D133252AF3B300408CB5 /* MovieGridCell.swift */,
 			);
 			path = Flixology;
 			sourceTree = "<group>";
@@ -210,10 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD56D126252AC63900408CB5 /* MovieDetailsViewController.swift in Sources */,
 				DDA2870A2517349A0096D003 /* AppDelegate.swift in Sources */,
 				DDA2870C2517349A0096D003 /* SceneDelegate.swift in Sources */,
 				DD7ABBD9251EEA74005E83B4 /* MovieCell.swift in Sources */,
 				DD6241A92519C56600AFB52D /* MoviesViewController.swift in Sources */,
+				DD56D12D252AE3A700408CB5 /* MovieGridViewController.swift in Sources */,
+				DD56D134252AF3B300408CB5 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
