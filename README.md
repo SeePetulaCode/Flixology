@@ -37,7 +37,7 @@ During Collection section. I had an error where the launch screen held at the la
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/BoYaeJ5boa.gif" width=250>
+<img src="https://res.cloudinary.com/b1917/image/upload/v1601882948/test_mobileC_jfj90i.gif" width=250>
 
 ### Notes
 
