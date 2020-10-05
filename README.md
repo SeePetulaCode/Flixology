@@ -18,7 +18,7 @@ Flixology is an app that allows users to browse movies from the [The Movie Datab
 <img src="http://g.recordit.co/4DQG9hyxz1.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+During Collection section. I had an error where the launch screen held at the launch screen.
 
 ## Flix Part 1
 
